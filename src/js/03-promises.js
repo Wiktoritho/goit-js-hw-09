@@ -12,7 +12,7 @@ function createPromise(position, delay) {
     Notify.success(`✅ Fulfilled promise ${position} in ${delay}ms`);
   } else {
     // Reject
-    Notify.failure(`Fulfilled promise ${position} in ${delay}ms`);
+    Notify.failure(`❌ Rejected promise ${position} in ${delay}ms`);
   }
 }
 
